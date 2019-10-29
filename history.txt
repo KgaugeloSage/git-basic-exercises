@@ -1,0 +1,119 @@
+    1  ls
+    2  pwd
+    3  mkdir workspace
+    4  cd workspace
+    5  ls
+    6  touch README.md
+    7  cp README.md CHANGELOG.md
+    8  touch exercise.md && mv exercise.md /tmp
+    9  rm /tmp/exercise.md
+   10  touch umuzi.md recruits.md cohort.md
+   11  cat > umuzi.md 
+   12  cat > recruits.md
+   13  cat recruits.md
+   14  cat > umuzi.md 
+   15  cat > cohort.md
+   16  cat cohort.md umuzi.md recruits.md 
+   17  cat > recruits.md 
+   18  cat recruits.md umuzi.md cohort.md
+   19  cat recruits.md umuzi.md cohort.md > summary.md
+   20  cat summary.md
+   21  cat >> summary.md
+   22  cat summary.md
+   23  locate umuzi
+   24  locate umuzi > search_result.md
+   25  cat search_result.md
+   26  touch ~/Documents/pad.md
+   27  cd ~/Desktop
+   28  mkdir work
+   29  cd work
+   30  ls
+   31  cd ..
+   32  cp ~/Documents/pad.md ~/Desktop/work/pad_copy.md
+   33  locate updatedb
+   34  cd ..
+   35  locate pad_copy.md
+   36  updatedb
+   37  sudo updatedb
+   38  locate pad_copy.md
+   39  cd -
+   40  cd ~/workspace
+   41  locate pdf
+   42  locate *.pdf
+   43  locate *.pdftk
+   44  locate *pdf
+   45  locate *pdf > previous.text
+   46  ls
+   47  locate pdf > previous.text
+   48  find . -maxdepth 1 -newermt "2019-10-29"
+   49  nano my_bio.md
+   50  ls
+   51  nano my_files.md && mv my_bio.md my_files.md
+   52  ls
+   53  history 
+   54  history > LinuxBashChallenge.txt
+   55  cat LinuxBashChallenge.txt
+   56  cd
+   57  mkdir git-basic-exercise
+   58  cd git-basic-exercise
+   59  ls -a
+   60  git init
+   61  ls -a
+   62  git status
+   63  touch README.md
+   64  ls -a
+   65  git status
+   66  git log
+   67  git add README.md
+   68  git status
+   69  git rm README.md
+   70  git status
+   71  git rm --cached \README.md
+   72  git rm --cached README.md
+   73  git status
+   74  git add README.md
+   75  git status
+   76  git commit -m "initial commit"
+   77  git config --global user.email "kgaugelo.ramaramela@umuzi.org"
+   78  git config --global user.name "Kgaugelo Ramaramela"
+   79  git commit -m "initial commit"
+   80  git log
+   81  nano README.md
+   82  cat README.md
+   83  nano README.md
+   84  cat README.md
+   85  git stats
+   86  git status
+   87  git add README.md
+   88  git status
+   89  git commit -m "second commit"
+   90  nano README.md
+   91  git add README.md
+   92  git status
+   93  git commit -m "third commit"
+   94  git status
+   95  git log
+   96  git checkout
+   97  b319087b1e3a69501ef6c74d1d64e02ddaf7b442
+   98  git checkout b319087b1e3a69501ef6c74d1d64e02ddaf7b442
+   99  cat README.md
+  100  git checkout master
+  101  cat README.md
+  102  git branch
+  103  git branch milkshake-flavours
+  104  git branch
+  105  git checkout milkshake-flavours
+  106  nano milkshakes.md
+  107  git status
+  108  add milkshakes.md
+  109  git add milkshakes.md
+  110  git status
+  111  git commit -m "added initial flavours"
+  112  git status
+  113  git log
+  114  git checkout master
+  115  git status
+  116  git log
+  117  git branch history
+  118  git checkout history
+  119  git log
